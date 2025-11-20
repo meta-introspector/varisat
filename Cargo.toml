@@ -11,14 +11,14 @@ members = [
     "varisat-cli",
 ]
 
-[profile.dev]
-opt-level = 1
+# [profile.dev]
+# opt-level = 1
 
-[profile.test]
-opt-level = 1
+# [profile.test]
+# opt-level = 1
 
-[profile.release]
-debug = true # Enables profiling
+# [profile.release]
+# debug = true # Enables profiling
 
-[profile.bench]
-debug = true # Enables profiling
+# [profile.bench]
+# debug = true # Enables profiling
