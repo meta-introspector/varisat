@@ -10,7 +10,8 @@ license = "MIT/Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-smallvec = "1.4.2"
+//smallvec = "1.4.2"
+smallvec = {workspace=true}
 log = "0.4.6"
 partial_ref = "0.3.1"
 rustc-hash = "1.1.0"
